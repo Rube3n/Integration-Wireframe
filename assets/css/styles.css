@@ -1,0 +1,56 @@
+.text-color-bleu {
+  color: blue;
+}
+
+.text-color-red {
+  color: red;
+}
+
+.font-bold-400 {
+  font-weight: 400;
+}
+
+.font-bold-800 {
+  font-weight: 800;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+nav,
+#nav {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.mt-40 {
+  margin-top: 7em;
+}
+
+.mt-20 {
+  margin-top: 5em;
+}
+
+.my-40 {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.px-10 {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.pl-10 {
+  padding-left: 2em;
+}
+
+a {
+  text-decoration: none;
+}
