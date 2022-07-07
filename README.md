@@ -1,5 +1,5 @@
-# branche Ruben
+# branche Norman
 
 to do :
-- header
-- logo
+- footer
+- nav bar
