@@ -6,6 +6,20 @@
   color: red;
 }
 
+.text-black-ul {
+  color: black;
+  text-decoration: underline;
+}
+
+.text-blue-ul {
+  color: blue;
+  text-decoration: underline;
+}
+
+.text-color-black {
+  color: black;
+}
+
 .font-bold-400 {
   font-weight: 400;
 }
@@ -16,6 +30,22 @@
 
 .bg-orange {
   background-color: orange;
+}
+.bg-grey {
+  background-color: gray;
+}
+
+.bg-dark-grey {
+  background-color: darkgrey;
+}
+
+
+.bg-nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+list-style-type: none;
+line-height: 4em;
 }
 
 nav,
@@ -53,4 +83,34 @@ nav,
 
 a {
   text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+list-style-type: none;
+}
+
+.px-40 {
+  padding-left: 13em;
+  padding-right: 13em;
+}
+
+.contenue-footer {
+margin: 0em;
+display: flex;
+justify-content: center;
+padding-left: 12em;
+padding-right: 12em;
+list-style-type: none;
+}
+
+.px-10-text {
+  padding-left: 2em;
+  padding-right: 2em;
+text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
