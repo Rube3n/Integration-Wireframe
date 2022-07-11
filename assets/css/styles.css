@@ -1,14 +1,30 @@
 body {
+  background-color: #293133;
   margin: 0;
-  --var-color: rgb(0, 238, 255);
 }
 
-.light {
+.text-center {
   text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-7xl {
   font-size: 5rem;
-  color: var(--var-color);
+}
+
+.color-var {
+  --var-color: rgb #00d9ff;
+}
+
+.relative {
   position: relative;
-  font-weight: bold;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .light::before {
