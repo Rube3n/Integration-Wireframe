@@ -1,22 +1,25 @@
-body {
+.bg-black {
   background-color: #293133;
-  margin: 0;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-white {
-  color: white;
+.text-linear1 {
+  color: linear-gradient(#00d9ff 50%, white 50%);
+}
+
+.mt-6 {
+  margin-top: 1.5rem; /* 24px */
 }
 
 .text-7xl {
   font-size: 5rem;
 }
 
-.color-var {
-  --var-color: rgb #00d9ff;
+.text-blue {
+  color: #00d9ff;
 }
 
 .relative {
@@ -30,7 +33,7 @@ body {
 .light::before {
   position: absolute;
   content: attr(data-text);
-  text-shadow: 0px 0px 50px var(--var-color);
+  text-shadow: 0px 0px 50px #00d9ff;
   filter: blur(10px) brightness(0);
   animation: flicker 2s linear forwards;
   animation-delay: 1s;
@@ -82,4 +85,12 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.pl-12{
+  padding-left: 3rem; /*48px  */
 }
