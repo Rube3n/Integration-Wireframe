@@ -1,4 +1,4 @@
-/* bg-color */
+/* -------------------- bg-color ------------------- */
 .bg-black {
   background-color: #293133;
 }
@@ -7,7 +7,7 @@
   background-color: #919191;
 }
 
-/* text-font */
+/* ------------------- text-font -------------------*/
 
 .text-xl {
   font-size: 1.25rem; /* 20px */
@@ -30,6 +30,19 @@
   color: #00d9ff;
 }
 
+.align-baseline {
+  vertical-align: baseline;
+}
+
+.no-underline	{
+  text-decoration-line: none;
+}
+
+.list-none {
+  list-style: none;
+}
+
+
 .relative {
   position: relative;
 }
@@ -38,7 +51,7 @@
   font-weight: 900;
 }
 
-/* margin-pading */
+/* ------------------ margin-pading ------------------------ */
 
 .m-0 {
   margin: 0px;
@@ -52,6 +65,11 @@
   padding-top: 0px;
 }
 
+.pr-4 {
+  padding-right: 1rem; /* 16px */
+}	
+
+
 .pl-12 {
   padding-left: 3rem; /*48px  */
 }
@@ -59,17 +77,37 @@
   padding-bottom: 2rem;
 }
 
-/* flex */
+.space-x-16 {
+  margin-left: 4rem;
+}
+
+
+/* ------------GRID------------- */
+
+.container {
+  display: grid;
+}
+
+.grid-cols-3{
+ grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+
+/* ------------flex----------- */
 
 .flex {
   display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .justify-center {
   justify-content: center;
 }
 
-/* height-width */
+/* ---------------------- height-width ----------------------*/
 
 .h-auto {
   height: auto;
@@ -91,7 +129,7 @@
   width: 100vw;
 }
 
-/* annimation */
+/*--------------- annimation ---------------- */
 
 .light::before {
   position: absolute;
