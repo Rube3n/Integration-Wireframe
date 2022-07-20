@@ -1,10 +1,10 @@
 /* -------------------- bg-color ------------------- */
 .bg-black {
-  background-color: #293133;
+  background-color: #171430;
 }
 
 .bg-white {
-  background-color: #919191;
+  background-color: #8099e9;
 }
 
 /* ------------------- text-font -------------------*/
@@ -77,6 +77,14 @@
   padding-bottom: 2rem;
 }
 
+.pt-14 {
+  padding-top: 3.5rem; /* 56px */
+}	
+
+.pt-40 {
+  padding-top: 10rem; /* 160px */
+}	
+
 .space-x-16 {
   margin-left: 4rem;
 }
@@ -88,10 +96,23 @@
   display: grid;
 }
 
-.grid-cols-3{
- grid-template-columns: repeat(3, minmax(0, 1fr));
+.grid-cols-2{
+ grid-template-columns:  repeat(2, minmax(0, 1fr));
 }
 
+.grid-rows-3 {
+  grid-template-rows: 500px 500px repeat(3, minmax(0, 1fr));
+  grid-template-rows: 300px 300px 300px;
+}	
+.col-span-2{
+  grid-column: span 2
+}
+
+.self-center
+ {
+
+ 	align-self: center;
+ }
 
 /* ------------flex----------- */
 
@@ -129,12 +150,25 @@
   width: 100vw;
 }
 
+.w-64	{
+  width: 16rem; /* 256px */
+}
+
+.w-auto {
+  width: auto;
+}
+
+.pb-14{
+  padding-bottom: 3.5rem; /* 56px */
+
+}
+
 /*--------------- annimation ---------------- */
 
 .light::before {
   position: absolute;
   content: attr(data-text);
-  text-shadow: 0px 0px 50px #00d9ff;
+  text-shadow: 0px 0px 50px #ffffff;
   filter: blur(10px) brightness(0);
   animation: flicker 2s linear forwards;
   animation-delay: 1s;
@@ -142,13 +176,13 @@
 
 @keyframes flicker {
   25% {
-    filter: blur(5px) brightness(1);
+    filter: blur(5px) brightness(5);
   }
   50% {
-    filter: blur(5px) brightness(0);
+    filter: blur(5px) brightness(3);
   }
   75% {
-    filter: blur(5px) brightness(0);
+    filter: blur(5px) brightness(2);
   }
   100% {
     filter: blur(5px) brightness(1);
