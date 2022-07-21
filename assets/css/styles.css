@@ -4,7 +4,7 @@
 }
 
 .bg-black-100 {
-  background-color: #0F0F0F;
+  background-color: #0f0f0f;
 }
 
 .bg-image {
@@ -27,13 +27,13 @@
 }
 
 .text-linear-1 {
-  background: linear-gradient(to right, #02FFA6, #03FFC0, #03FFDD, #22B6B1);
+  background: linear-gradient(to right, #02ffa6, #03ffc0, #03ffdd, #22b6b1);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .text-green {
-  color: #02FFA6;
+  color: #02ffa6;
 }
 
 .align-baseline {
@@ -76,6 +76,10 @@
 
 .pl-40 {
   padding-left: 10rem; /* 160px */
+}
+
+.pl-80 {
+  padding-left: 20rem; /* 320px */
 }
 
 .pl-52 {
@@ -138,6 +142,15 @@
   grid-row: span 1 / span 1;
 }
 
+.row-span-2 {
+  grid-row: span 3 / span 3;
+}
+
+.gap-16	{
+  gap: 4rem; /* 64px */
+}
+
+
 .justify-self-center {
   justify-self: center;
 }
@@ -168,6 +181,10 @@
   justify-self: start;
 }
 
+.justify-self-center {
+  justify-self: center;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -176,6 +193,10 @@
 
 .h-auto {
   height: auto;
+}
+
+.h-82 {
+  height: 70px
 }
 
 .h-28 {
@@ -192,6 +213,14 @@
 
 .w-screen {
   width: 100vw;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-64 {
@@ -236,4 +265,7 @@
   100% {
     filter: blur(5px) brightness(1);
   }
+}
+.ml-48{
+  margin-left: 18rem;
 }
