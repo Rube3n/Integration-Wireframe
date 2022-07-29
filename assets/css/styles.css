@@ -214,6 +214,10 @@
   margin-top: 7em;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -274,8 +278,17 @@
 .h-auto {
   height: auto;
 }
+
 .w-10 {
   width: 2.5rem;
+}
+
+.h-20 {
+  height: 5rem;
+} /* 80px */
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-48 {
@@ -465,5 +478,25 @@ p {
 }
 
 .h {
-  height: 50px;
+  height: ;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.top-0 {
+  top: 0;
 }
