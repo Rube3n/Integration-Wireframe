@@ -1,3 +1,10 @@
+
+# branche Norman
+
+to do :
+- footer
+- nav bar
+
 # branch main
 
 # Mission
@@ -44,3 +51,4 @@ Git-Hub
 Norman
 
 Ruben
+
