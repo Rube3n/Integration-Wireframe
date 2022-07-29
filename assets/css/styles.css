@@ -33,7 +33,7 @@ body{
 
 
 .bg-black-100 {
-  background-color: #0f0f0f;
+  background-color: #000000
 }
 
 .font-bold-400 {
@@ -58,7 +58,7 @@ body{
 }
 
 .bg-nav {
-  background-color: #06060b;
+  background-color: #070708;
   display: flex;
   flex-direction: row;
   list-style-type: none;
