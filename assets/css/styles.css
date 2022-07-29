@@ -1,17 +1,26 @@
 /* -------------------- bg-color ------------------- */
 .bg-black {
-  background-color: #171430;
+  background-color: black;
 }
 
 .bg-black-100 {
   background-color: #0f0f0f;
 }
-
 .bg-image {
   background-image: url("../img/banner.png");
 }
 
+/*--text color--*/
+
+.text-green {
+  color: #02ffa6;
+}
+
 /* ------------------- text-font -------------------*/
+
+.font-bold-400 {
+  font-weight: 400;
+}
 
 .text-xl {
   font-size: 1.25rem; /* 20px */
@@ -78,7 +87,6 @@
   padding-top: 1rem;
 }
 
-
 .pt-10 {
   padding-top: 2.5rem; /* 40px */
 }
@@ -138,6 +146,10 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -194,6 +206,20 @@
 
 .justify-between {
   justify-content: space-between;
+}
+
+/*-margin+padding-*/
+
+.mt-40 {
+  margin-top: 7em;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.mt-20 {
+  margin-top: 5em;
 }
 
 .justify-start {
@@ -285,11 +311,6 @@
   border-radius: 9999px;
 }
 
-.overlay-image {
-  position: relative;
-  width: 100%;
-}
-
 /*--------------- annimation ---------------- */
 
 .light::before {
@@ -314,4 +335,135 @@
   100% {
     filter: blur(5px) brightness(1);
   }
+}
+.pt {
+  padding-top: 1em;
+}
+
+.pb {
+  padding-bottom: 2em;
+}
+
+.px-10 {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.px-20 {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.px-30 {
+  padding-left: 12em;
+  padding-right: 12em;
+}
+
+.pl-10 {
+  padding-left: 2em;
+}
+
+.pl-40 {
+  padding-left: 13em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.px-40 {
+  padding-left: 13em;
+  padding-right: 13em;
+}
+
+.px-10-text {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.px-10-text {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+/*-flex-*/
+
+.flex {
+  display: flex;
+}
+
+.flex-direction-cl {
+  flex-direction: column;
+}
+
+.flex-direction-cl-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-direction-row-reverse {
+  flex-direction: row-reverse;
+}
+
+/*-justify-*/
+
+.justify-content {
+  justify-content: center;
+}
+
+.justify-items {
+  justify-items: center;
+}
+
+/*-grind-*/
+
+.grid {
+  display: grid;
+}
+
+/*-footer-*/
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.footer {
+  overflow: hidden;
+}
+.position {
+  position: absolute;
+}
+
+.bottom {
+  bottom: 0px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.abosolute {
+  position: absolute;
+}
+
+.bottom {
+  bottom: 0px;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.h {
+  height: 50px;
 }
